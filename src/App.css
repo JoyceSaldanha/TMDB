@@ -36,3 +36,31 @@
     transform: rotate(360deg);
   }
 }
+
+.card-container {
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  gap:5rem;
+  margin:2rem;
+}
+
+.card {
+  border:1px solid;
+  border-radius: 50%;
+  max-width: 100%;
+  padding: 20px;
+  background: #1a1d22;
+  transition: transform 0.5s;
+}
+
+.card:hover {
+  transform: scale(1.2);
+}
+
+h3 {
+  color:aliceblue
+}
+
+.poster {
+  width: 10rem;
+}
