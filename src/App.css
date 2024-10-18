@@ -37,6 +37,12 @@
   }
 }
 
+.button-container {
+  display: flex;
+  justify-content: center;
+  gap:1rem;
+}
+
 .card-container {
   display: grid;
   grid-template-columns: repeat(3,1fr);
